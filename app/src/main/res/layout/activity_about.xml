@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aboutpg"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_marginTop="150dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Hello! I'm Nichole Joyce G. Santos currently taking up Bachelor of Science in Information Technology major in Web and App development in National University Baliwag. This is the very first application with my very own UI/UX design and I am really happy about the output. As much as I want to put a story behind this application here, my time wouldn't be enough. At first I really don't know how am I going to start this, well an acknowledgement from my professor and of course a special thanks for my friend Jhon Mark Santos, for helping me to some parts where I am really confused. I accomplished this application at exactly 11:30pm of December 24, 2022, that was exactly before Noche Buena, and my wish for this Christmas is a wealthy health and a delightful new year for each and everyone of us. I have a very usual new year's resolution, well that's because of the fact that I'm not really a fan of planning ahead. But in order to be an effective individual my new year's resolution is to plan ahead of time and of course to continue to my journey in reaching my dreams and fulfill my promises to myself, my family, my friends, and of course is to God."
+                android:textSize="16dp" />
+
+
+
+        <Button
+            android:id="@+id/homeabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="225dp"
+            android:backgroundTint="#EF82D4"
+            android:text="HOME"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

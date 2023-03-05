@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagebg"
+    android:orientation="vertical"
+    tools:context=".viewphotosActivity">
+
+
+    <LinearLayout
+        android:layout_marginLeft="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="115dp">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+
+            android:src="@drawable/img1" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/img2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="45dp">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/img3"
+
+            />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/img4" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="45dp">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/img5"
+
+            />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/img6" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:backgroundTint="#EF82D4"
+        android:text="BACK" />
+
+</LinearLayout>

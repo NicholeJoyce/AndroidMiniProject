@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home"
+    >
+
+
+    <item
+
+        android:id="@+id/menucalcu"
+        android:title="Calculator"
+        android:icon="@drawable/whitecalcu"
+        app:showAsAction="always" >
+        <menu>
+            <item android:title="OnClick"
+                android:id="@+id/onClick"/>
+            <item android:title="OnCLickListener"
+                android:id="@+id/onClickListener"/>
+
+        </menu>
+
+      </item>
+
+    <item
+
+        android:id="@+id/menucam"
+        android:title="Camera"
+        android:icon="@drawable/whitecam"
+        app:showAsAction="always"
+       />
+
+    <item
+
+        android:id="@+id/menusms"
+        android:title="SMS"
+        android:icon="@drawable/whitesms"
+        app:showAsAction="always"
+        />
+    <item
+
+        android:id="@+id/menuimg"
+        android:title="Images"
+        android:icon="@drawable/whiteimage"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menucall"
+        android:title="Call" />
+    <item
+
+        android:id="@+id/menuurl"
+        android:title="URL" />
+    <item
+
+        android:id="@+id/menuabout"
+        android:title="About" />
+    <item
+        android:id="@+id/menureg"
+        android:title="Registration"
+        />
+    <item
+        android:id="@+id/menucalendar"
+        android:title="Calendar"
+        />
+    <item
+        android:id="@+id/menulogout"
+        android:title="Log Out"
+        />
+    <item
+
+        android:id="@+id/menuexit"
+        android:title="Exit" />
+
+</menu>

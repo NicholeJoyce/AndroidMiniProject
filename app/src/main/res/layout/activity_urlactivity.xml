@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   android:background="@drawable/urlbg"
+    tools:context=".URLActivity">
+
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/txturl"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/textbox"
+        android:hint="YOUR URL" />
+
+
+    <Button
+        android:id="@+id/btnnav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="btnnavigate"
+        android:backgroundTint="#EF82D4"
+        android:text="Navigate" />
+
+    <Button
+        android:id="@+id/homeurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnhomeurl"
+        android:backgroundTint="#EF82D4"
+        android:text="HOME" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:background="@drawable/cambg"
+    tools:context=".Camera_Activity">
+
+    <ImageView
+        android:id="@+id/showpic"
+        android:src="@drawable/myprettyavatar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="120dp"
+
+        />
+    <Button
+        android:id="@+id/cam"
+        android:text="Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF82D4"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/homecamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF82D4"
+        android:text="HOME"
+
+        />
+
+
+
+</LinearLayout>
